@@ -85,3 +85,12 @@ $ docker run -it python:3.6.15
 
 [https://codingforentrepreneurs.com/blog/deploy-fastapi-to-railway-with-this-dockerfile]
 
+## 006  Build & Run FastAPI Container
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=3167s]
+
+```
+$ docker build -t analytics-api -f Dockerfile .
+$ docker run analytics-api
+```
+

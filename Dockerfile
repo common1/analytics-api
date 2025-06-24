@@ -1,7 +1,12 @@
-# Set the python version as a build-time argument
-# with Python 3.12 as the default
-ARG PYTHON_VERSION=3.12-slim-bullseye
-FROM python:${PYTHON_VERSION}
+# 1 - Download & Install Python 3
+FROM python:3.13.2-slim-bullseye
+
+# setup linux os packages
+
+# 2 - Create Virtual Environment
+# 3 - Install Python Packages - `pip install <package-name>`
+# 4 - FastAPI Hello World
+
 
 # Create a virtual environment
 RUN python -m venv /opt/venv
@@ -13,8 +18,8 @@ ENV PATH=/opt/venv/bin:$PATH
 RUN pip install --upgrade pip
 
 # Set Python-related environment variables
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
 # Install os dependencies for our mini vm
 RUN apt-get update && apt-get install -y \
@@ -43,20 +48,6 @@ COPY ./src /code
 # Install the Python project requirements
 RUN pip install -r /tmp/requirements.txt
 
-# database isn't available during build
-# run any other commands that do not need the database
-# such as:
-# RUN python manage.py collectstatic --noinput
-
-# set the FastAPI project main module
-ARG PROJ_NAME="main"
-
-# create a bash script to run the FastAPI project
-# this script will execute at runtime when
-# the container starts and the database is available
-RUN printf "#!/bin/bash\n" > ./paracord_runner.sh && \
-    printf "RUN_PORT=\"\${PORT:-8000}\"\n\n" >> ./paracord_runner.sh && \
-    printf "gunicorn ${PROJ_NAME}:app --workers 2 --worker-class uvicorn.workers.UvicornWorker --bind \"[::]:\$RUN_PORT\"\n" >> ./paracord_runner.sh
 
 # make the bash script executable
 COPY ./boot/docker-run.sh /opt/run.sh
