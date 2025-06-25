@@ -2,6 +2,7 @@
 
 ## See also
 
+[https://www.youtube.com/watch?v=tiBeLLv5GJo]
 [https://github.com/codingforentrepreneurs/analytics-api]
 [https://fastapi.tiangolo.com/]
 
@@ -50,14 +51,26 @@ $ docker ps
 Show docker images
 $ docker images
 
+Show all running containers
+$ docker container ls
+
+Show all containers
+$ docker container ls -a
+
 Stop all docker containers
 $ docker stop $(docker ps -a -q)
+
+Remove stopped container
+$ docker rm 50f3042d203d
 
 Remove all docker containers
 $ docker rm $(docker ps -a -q)
 
-Remove image
-$ docker rmi -f 143fd71618f9dock
+Remove stopped container - docker rm <container_id>
+$ docker rm 50c0e1d67f3f
+
+Remove image - docker rmi <image_id>
+$ docker rmi 9f8358e67991
 
 Remove all images
 $ docker image prune --all --force
@@ -94,3 +107,20 @@ $ docker build -t analytics-api -f Dockerfile .
 $ docker run analytics-api
 ```
 
+## 007 Development Mode with Docker Compose
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=3474s]
+
+```
+$ docker compose up --watch
+
+$ docker compose down
+or
+$ docker compose down -v
+
+$ docker compose run app /bin/bash
+$ docker compose run app python
+$ docker compose run app python --remove-orphans
+
+
+```
