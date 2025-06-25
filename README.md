@@ -121,6 +121,13 @@ $ docker compose down -v
 $ docker compose run app /bin/bash
 $ docker compose run app python
 $ docker compose run app python --remove-orphans
-
-
 ```
+
+## 008 Section Wrap Up
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=4296s]
+
+## 009 Routing & Data Validation
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=4467s]
+
