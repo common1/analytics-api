@@ -6,6 +6,17 @@
 [https://github.com/codingforentrepreneurs/analytics-api]
 [https://fastapi.tiangolo.com/]
 
+## 000 System
+
+```
+Do not run postgresql server on startup
+$ sudo systemctl disable postgresql
+
+Run postgresql server on startup
+$ sudo systemctl enable postgresql
+
+```
+
 ## 001 Create a Python Virtual Environment
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=940s]
@@ -130,4 +141,8 @@ $ docker compose run app python --remove-orphans
 ## 009 Routing & Data Validation
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=4467s]
+
+## 010 Our First API Endpoint
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=4611s]
 
