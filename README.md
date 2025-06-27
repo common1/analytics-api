@@ -142,7 +142,10 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=4467s]
 
-## 010 Our First API Endpoint
+## 010 Our First API Endpoint - Part 1
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=4611s]
 
+## 010 Our First API Endpoint - Part 2
+
+...
