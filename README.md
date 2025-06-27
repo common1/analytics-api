@@ -149,3 +149,8 @@ $ docker compose run app python --remove-orphans
 ## 010 Our First API Endpoint - Part 2
 
 ...
+
+## 011  FastAPI Routing Module - Part 1
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=4871s]
+
