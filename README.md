@@ -1,4 +1,4 @@
-# analytics-api
+sudo# analytics-api
 
 ## See also
 
@@ -153,4 +153,8 @@ $ docker compose run app python --remove-orphans
 ## 011  FastAPI Routing Module - Part 1
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=4871s]
+
+## 011  FastAPI Routing Module - Part 2
+
+...
 
