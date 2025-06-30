@@ -170,3 +170,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=5361s]
 
+## 014 List Data Types
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=5830s]
+
