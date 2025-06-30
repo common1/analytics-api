@@ -166,3 +166,7 @@ $ docker compose run app python --remove-orphans
 
 ...
 
+## 013 Basic Data Types
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=5361s]
+
