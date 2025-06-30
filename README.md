@@ -158,3 +158,7 @@ $ docker compose run app python --remove-orphans
 
 ...
 
+## 012 Verify API Endpoint - Part 1
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=5163s]
+
