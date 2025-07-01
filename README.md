@@ -190,3 +190,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=7470s]
 
+## 019 Storing Data with SQLModel
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=7573s]
+
