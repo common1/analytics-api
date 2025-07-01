@@ -182,3 +182,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=6707s]
 
+## 017 Optional Values with Pydantic
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=7076s]
+
