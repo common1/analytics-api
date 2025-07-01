@@ -194,3 +194,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=7573s]
 
+## 020 Postgres or TimescaleDB with Docker Compose -  Part 1
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=7668s]
+
