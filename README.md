@@ -178,3 +178,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=6101s]
 
+## 016 Incoming Data Validation with Pydantic Schemas
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=6707s]
+
