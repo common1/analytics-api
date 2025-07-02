@@ -206,4 +206,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=8199s]
 
+## 022 Pydantic to SQLModel
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=8647s]
 
