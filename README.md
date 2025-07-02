@@ -202,3 +202,8 @@ $ docker compose run app python --remove-orphans
 
 ...
 
+## 021 Load Environment Variables with Python
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=8199s]
+
+
