@@ -210,3 +210,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=8647s]
 
+## 023 First SQL Table with SQLModel
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=8795s]
+
