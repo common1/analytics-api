@@ -222,3 +222,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=9644s]
 
+## 026 Store Data using SQLModel Sessions
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=9959s]
+
