@@ -238,4 +238,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=10910s]
 
+## 030 Adding a Datetime Field
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=11130s]
 
