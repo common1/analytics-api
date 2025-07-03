@@ -262,3 +262,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=12124s]
 
+## 036 Chunks & Retention in Hypertables
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=12333s]
+
