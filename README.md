@@ -226,3 +226,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=9959s]
 
+## 027 SQLModel Query for List View
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=10308s]
+
