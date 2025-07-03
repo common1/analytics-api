@@ -230,3 +230,12 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=10308s]
 
+## 028 Detail Lookup via SQLModel
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=10621s]
+
+## 029 Update Data with SQLModel
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=10910s]
+
+
