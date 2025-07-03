@@ -242,3 +242,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=11130s]
 
+## 031 Updated At Timestamp Field
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=11439s]
+
