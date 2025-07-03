@@ -246,3 +246,7 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=11439s]
 
+## 032 Section Wrap Up
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=11652s]
+
