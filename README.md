@@ -266,3 +266,9 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=12333s]
 
+[https://popsql.com/download]
+
+## 037 Verify Hypertables with PopSQL
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=12656s]
+
