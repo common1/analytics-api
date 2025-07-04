@@ -272,3 +272,9 @@ $ docker compose run app python --remove-orphans
 
 [https://www.youtube.com/watch?v=tiBeLLv5GJo&t=12656s]
 
+## 038 SQLModel Queries in Notebooks - Part 1
+
+[https://www.youtube.com/watch?v=tiBeLLv5GJo&t=12994s]
+
+Current: 3:38:09
+
